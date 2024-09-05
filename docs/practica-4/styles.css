@@ -1,0 +1,51 @@
+
+body
+{
+  background-color: aliceblue;
+}
+.container
+{
+padding-left: 15%;
+}
+.fs-nav
+{
+    font-size: 25px;
+}
+.container-list
+{
+    padding-left: 25%;
+}
+.m-info
+{
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.img-banner
+{
+max-width: 40%;
+}
+.container-img
+{
+    padding-left: 5%;
+}
+.m-info2
+{
+    margin-top: 10%;
+}
+.h1-pad
+{
+    padding-right: 2%;
+}
+.bg-color
+{
+    background-color: black;
+}
+.container2
+{ 
+    max-width: 40%;
+    margin: auto;
+}
+.m-top
+{
+    margin-top: 5%;
+}
