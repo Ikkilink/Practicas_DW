@@ -1,11 +1,11 @@
 
 body
 {
-  background-color: aliceblue;
+  background-color: aliceblue
 }
 .container
 {
-padding-left: 15%;
+padding-left: 5%;
 }
 .fs-nav
 {
@@ -52,7 +52,7 @@ max-width: 40%;
 }
 .bg-fade
 {
-    background: rgba(77, 4, 4, 0.5);
+    background: rgba(255, 10, 10, 0.5);
 }
 .m-top-down
 {
@@ -62,4 +62,8 @@ max-width: 40%;
 .m-top-down
 {
 padding-bottom: 30%;
+}
+.inicio
+{
+    margin-top: 5%;
 }
