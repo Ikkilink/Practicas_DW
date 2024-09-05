@@ -44,8 +44,22 @@ max-width: 40%;
 { 
     max-width: 40%;
     margin: auto;
+    margin-bottom: 1%;
 }
 .m-top
 {
     margin-top: 5%;
+}
+.bg-fade
+{
+    background: rgba(77, 4, 4, 0.5);
+}
+.m-top-down
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.m-top-down
+{
+padding-bottom: 30%;
 }
