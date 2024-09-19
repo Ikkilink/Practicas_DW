@@ -31,14 +31,14 @@ for (let producto of productos) {
 console.error(`El producto "${productoNombre}" no existe`);
 }
 //3
-function calcularTotal(){
+function calcularTotal() {
     let total = 0;
     for (let item of carrito) {
-        total += item.precio*item.cantidad;
+      total += item.precio * item.cantidad;
     }
     return total;
-}
-function aplicarDescuento(){
+  }
+function aplicarDescuento(total){
     if(total>= 100)
     {
         return total*.9;
@@ -48,11 +48,42 @@ function procesarcompra(){
     console.log("Procesando compra . . .")
     setTimeout(function(){
          let total = calcularTotal();
-         total = aplicarDescuento();
-         console.log(`Su total es de $(total)`);
+         total = aplicarDescuento(total);
+         console.log(`Compra completada. Total a pagar: $${total.toFixed(2)}`);
     },3000);
 }
+function quitarproducto()
+{
+    carrito.splice(2,carrito.length);
+    console.log(carrito);
+
+}
+function ProcesarCompra()
+{
+    console.log("Procesando compra")
+    setTimeout(() =>
+    {
+        console.log("3")
+    },2000);
+    setTimeout(() =>
+    {
+        console.log("2")
+    },4000);
+    setTimeout(() =>
+    {
+        console.log("1")
+    },6000);    
+    setTimeout(function(){
+        let total = calcularTotal();
+        total = aplicarDescuento(total);
+        console.log(`Compra completada. Total a pagar: $${total.toFixed(2)}`);
+   },8000);   
+}
+
 agregarCarrito("Pantalon",3);
 agregarCarrito("Pantalon",3);
 agregarCarrito("Pantalon",3);
-calcularTotal();
+quitarproducto();
+console.log(carrito);
+procesarcompra();
+ProcesarCompra();
