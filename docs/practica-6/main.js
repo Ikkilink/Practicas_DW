@@ -25,7 +25,7 @@ d.addEventListener("click", function (e) {
   });
 
 $listaCarrito.addEventListener("click",function(e){
-    if(e.target.tagName === "LI"){
+    if(e.target.matches("producto-quitar")){
         const $item = e.target;
         $item.remove();
         let precio = parseFloat($item.innerText.split("- $")[1]);
@@ -44,3 +44,4 @@ $btnCompra.addEventListener("click",function(e)
         alert("El carrito esta vacio no se puede realzar la compra");
     }
 })
+
