@@ -7,6 +7,9 @@ Carol Alejandra Torres Cortes
 Enlace a Github pages https://ikkilink.github.io/Practicas_DW/
 Enlace Github pages pelicula https://ikkilink.github.io/Practicas_DW/practica-4/index.html
 
-https://ikkilink.github.io/Practicas_DW/practica-5/index.html
+pracica 5  https://ikkilink.github.io/Practicas_DW/practica-5/index.html
 
-https://ikkilink.github.io/Practicas_DW/practica-6/index.html
+practica 6 https://ikkilink.github.io/Practicas_DW/practica-6/index.html
+
+practica 7 https://ikkilink.github.io/Practicas_DW/practica-7/index.html
+
