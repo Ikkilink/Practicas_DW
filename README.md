@@ -13,3 +13,4 @@ practica 6 https://ikkilink.github.io/Practicas_DW/practica-6/index.html
 
 practica 7 https://ikkilink.github.io/Practicas_DW/practica-7/index.html
 
+practica 8 https://ikkilink.github.io/Practicas_DW/practica-8/index.html

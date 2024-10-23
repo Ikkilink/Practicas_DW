@@ -58,4 +58,3 @@ $btnCompra.addEventListener("click",function(e)
         alert("El carrito esta vacio no se puede realzar la compra");
     }
 })
-
